@@ -1,0 +1,6 @@
+zfs_uio.lo: ../../module/zcommon/zfs_uio.c /usr/include/stdc-predef.h \
+ ../../zfs_config.h
+
+/usr/include/stdc-predef.h:
+
+../../zfs_config.h:

@@ -1,0 +1,8 @@
+zed_disk_event.o: zed_disk_event.c /usr/include/stdc-predef.h \
+ ../../zfs_config.h zed_disk_event.h
+
+/usr/include/stdc-predef.h:
+
+../../zfs_config.h:
+
+zed_disk_event.h:

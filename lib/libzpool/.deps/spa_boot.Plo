@@ -1,0 +1,6 @@
+spa_boot.lo: ../../module/zfs/spa_boot.c /usr/include/stdc-predef.h \
+ ../../zfs_config.h
+
+/usr/include/stdc-predef.h:
+
+../../zfs_config.h:

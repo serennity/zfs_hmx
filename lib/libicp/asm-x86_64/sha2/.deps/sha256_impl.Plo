@@ -1,0 +1,25 @@
+asm-x86_64/sha2/sha256_impl.lo: \
+ ../../module/icp/asm-x86_64/sha2/sha256_impl.S \
+ /usr/include/stdc-predef.h ../../zfs_config.h \
+ ../../module/icp/include/sys/asm_linkage.h \
+ ../../module/icp/include/sys/ia32/asm_linkage.h \
+ ../../module/icp/include/sys/stack.h \
+ ../../module/icp/include/sys/ia32/stack.h \
+ ../../module/icp/include/sys/trap.h \
+ ../../module/icp/include/sys/ia32/trap.h
+
+/usr/include/stdc-predef.h:
+
+../../zfs_config.h:
+
+../../module/icp/include/sys/asm_linkage.h:
+
+../../module/icp/include/sys/ia32/asm_linkage.h:
+
+../../module/icp/include/sys/stack.h:
+
+../../module/icp/include/sys/ia32/stack.h:
+
+../../module/icp/include/sys/trap.h:
+
+../../module/icp/include/sys/ia32/trap.h:
