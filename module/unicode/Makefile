@@ -1,5 +1,5 @@
-src = /home/zfs/z_sm4/module/unicode
-obj = /home/zfs/z_sm4/module/unicode
+src = /home/zfs/z_sm4/zfs_hmx/module/unicode
+obj = /home/zfs/z_sm4/zfs_hmx/module/unicode
 
 MODULE := zunicode
 

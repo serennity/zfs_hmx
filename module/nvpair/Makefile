@@ -1,5 +1,5 @@
-src = /home/zfs/z_sm4/module/nvpair
-obj = /home/zfs/z_sm4/module/nvpair
+src = /home/zfs/z_sm4/zfs_hmx/module/nvpair
+obj = /home/zfs/z_sm4/zfs_hmx/module/nvpair
 
 MODULE := znvpair
 

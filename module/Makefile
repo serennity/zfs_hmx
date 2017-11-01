@@ -8,8 +8,8 @@ subdir-m += icp
 INSTALL_MOD_DIR ?= extra
 
 ZFS_MODULE_CFLAGS += -include /usr/local/src/spl-0.7.0/3.10.0/spl_config.h
-ZFS_MODULE_CFLAGS += -include /home/zfs/z_sm4/zfs_config.h
-ZFS_MODULE_CFLAGS += -I/home/zfs/z_sm4/include -I/usr/local/src/spl-0.7.0/include -I/usr/local/src/spl-0.7.0
+ZFS_MODULE_CFLAGS += -include /home/zfs/z_sm4/zfs_hmx/zfs_config.h
+ZFS_MODULE_CFLAGS += -I/home/zfs/z_sm4/zfs_hmx/include -I/usr/local/src/spl-0.7.0/include -I/usr/local/src/spl-0.7.0
 #ZFS_MODULE_CFLAGS += -I/include
 #KBUILD_EXTRA_SYMBOLS += 
 export ZFS_MODULE_CFLAGS

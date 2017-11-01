@@ -249,15 +249,15 @@ am__can_run_installinfo = \
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 pkgdatadir = $(datadir)/zfs
-ACLOCAL = ${SHELL} /home/zfs/z_sm4/config/missing aclocal-1.13
+ACLOCAL = ${SHELL} /home/zfs/z_sm4/zfs_hmx/config/missing aclocal-1.13
 ALIEN = alien
 ALIEN_VERSION = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
-AUTOCONF = ${SHELL} /home/zfs/z_sm4/config/missing autoconf
-AUTOHEADER = ${SHELL} /home/zfs/z_sm4/config/missing autoheader
-AUTOMAKE = ${SHELL} /home/zfs/z_sm4/config/missing automake-1.13
+AUTOCONF = ${SHELL} /home/zfs/z_sm4/zfs_hmx/config/missing autoconf
+AUTOHEADER = ${SHELL} /home/zfs/z_sm4/zfs_hmx/config/missing autoheader
+AUTOMAKE = ${SHELL} /home/zfs/z_sm4/zfs_hmx/config/missing automake-1.13
 AWK = gawk
 CC = gcc
 CCAS = gcc
@@ -334,7 +334,7 @@ LIPO =
 LN_S = ln -s
 LTLIBOBJS = 
 MAINT = #
-MAKEINFO = ${SHELL} /home/zfs/z_sm4/config/missing makeinfo
+MAKEINFO = ${SHELL} /home/zfs/z_sm4/zfs_hmx/config/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -400,10 +400,10 @@ ZFS_META_VERSION = 0.7.0
 ZFS_MODULE_LOAD = modules-load.d
 ZLIB = -lz
 ZONENAME = echo global
-abs_builddir = /home/zfs/z_sm4/scripts
-abs_srcdir = /home/zfs/z_sm4/scripts
-abs_top_builddir = /home/zfs/z_sm4
-abs_top_srcdir = /home/zfs/z_sm4
+abs_builddir = /home/zfs/z_sm4/zfs_hmx/scripts
+abs_srcdir = /home/zfs/z_sm4/zfs_hmx/scripts
+abs_top_builddir = /home/zfs/z_sm4/zfs_hmx
+abs_top_srcdir = /home/zfs/z_sm4/zfs_hmx
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -433,7 +433,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/zfs/z_sm4/config/install-sh
+install_sh = ${SHELL} /home/zfs/z_sm4/zfs_hmx/config/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -720,8 +720,8 @@ export INTREE="yes"
 export GDB="/usr/bin/libtool --mode=execute gdb"
 export LDMOD=/sbin/insmod
 
-export CMD_DIR=/home/zfs/z_sm4/cmd
-export UDEV_RULE_DIR=/home/zfs/z_sm4/udev/rules.d
+export CMD_DIR=/home/zfs/z_sm4/zfs_hmx/cmd
+export UDEV_RULE_DIR=/home/zfs/z_sm4/zfs_hmx/udev/rules.d
 export ZEDLET_ETC_DIR=$$CMD_DIR/zed/zed.d
 export ZEDLET_LIBEXEC_DIR=$$CMD_DIR/zed/zed.d
 export ZPOOL_SCRIPT_DIR=$$CMD_DIR/zpool/zpool.d
@@ -734,21 +734,21 @@ export INSTALL_SYSCONF_DIR=${prefix}/etc
 
 export KMOD_SPL=/usr/local/src/spl-0.7.0/3.10.0/module/spl/spl.ko
 export KMOD_SPLAT=/usr/local/src/spl-0.7.0/3.10.0/module/splat/splat.ko
-export KMOD_ZAVL=/home/zfs/z_sm4/module/avl/zavl.ko
-export KMOD_ZNVPAIR=/home/zfs/z_sm4/module/nvpair/znvpair.ko
-export KMOD_ZUNICODE=/home/zfs/z_sm4/module/unicode/zunicode.ko
-export KMOD_ZCOMMON=/home/zfs/z_sm4/module/zcommon/zcommon.ko
-export KMOD_ICP=/home/zfs/z_sm4/module/icp/icp.ko
-export KMOD_ZFS=/home/zfs/z_sm4/module/zfs/zfs.ko
+export KMOD_ZAVL=/home/zfs/z_sm4/zfs_hmx/module/avl/zavl.ko
+export KMOD_ZNVPAIR=/home/zfs/z_sm4/zfs_hmx/module/nvpair/znvpair.ko
+export KMOD_ZUNICODE=/home/zfs/z_sm4/zfs_hmx/module/unicode/zunicode.ko
+export KMOD_ZCOMMON=/home/zfs/z_sm4/zfs_hmx/module/zcommon/zcommon.ko
+export KMOD_ICP=/home/zfs/z_sm4/zfs_hmx/module/icp/icp.ko
+export KMOD_ZFS=/home/zfs/z_sm4/zfs_hmx/module/zfs/zfs.ko
 endef
 
 export EXTRA_ENVIRONMENT
 
 all-local:
-	-$(SED) -e '\|^export BIN_DIR=|s|$$|/home/zfs/z_sm4/bin|' \
-		-e '\|^export SBIN_DIR=|s|$$|/home/zfs/z_sm4/bin|' \
-		-e '\|^export ZTS_DIR=|s|$$|/home/zfs/z_sm4/tests|' \
-		-e '\|^export SCRIPT_DIR=|s|$$|/home/zfs/z_sm4/scripts|' \
+	-$(SED) -e '\|^export BIN_DIR=|s|$$|/home/zfs/z_sm4/zfs_hmx/bin|' \
+		-e '\|^export SBIN_DIR=|s|$$|/home/zfs/z_sm4/zfs_hmx/bin|' \
+		-e '\|^export ZTS_DIR=|s|$$|/home/zfs/z_sm4/zfs_hmx/tests|' \
+		-e '\|^export SCRIPT_DIR=|s|$$|/home/zfs/z_sm4/zfs_hmx/scripts|' \
 		common.sh.in >common.sh
 	-echo "$$EXTRA_ENVIRONMENT" >>common.sh
 

@@ -1,5 +1,5 @@
-src = /home/zfs/z_sm4/module/zcommon
-obj = /home/zfs/z_sm4/module/zcommon
+src = /home/zfs/z_sm4/zfs_hmx/module/zcommon
+obj = /home/zfs/z_sm4/zfs_hmx/module/zcommon
 
 MODULE := zcommon
 

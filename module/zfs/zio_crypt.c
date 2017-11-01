@@ -196,7 +196,9 @@ zio_crypt_info_t zio_crypt_table[ZIO_CRYPT_FUNCTIONS] = {
 	{SUN_CKM_AES_CCM,	ZC_TYPE_CCM,	32,	"aes-256-ccm"},
 	{SUN_CKM_AES_GCM,	ZC_TYPE_GCM,	16,	"aes-128-gcm"},
 	{SUN_CKM_AES_GCM,	ZC_TYPE_GCM,	24,	"aes-192-gcm"},
-	{SUN_CKM_AES_GCM,	ZC_TYPE_GCM,	32,	"aes-256-gcm"}
+	{SUN_CKM_AES_GCM,	ZC_TYPE_GCM,	32,	"aes-256-gcm"},
+	{SUN_CKM_AES_ECB,   ZC_TYPE_ECB,    16, "aes-128-ecb"},
+	{SUN_CKM_SM4_ECB,   ZC_TYPE_ECB,    16, "sm4-128-ecb"}
 };
 
 void

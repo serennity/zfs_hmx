@@ -1,5 +1,5 @@
-src = /home/zfs/z_sm4/module/icp
-obj = /home/zfs/z_sm4/module/icp
+src = /home/zfs/z_sm4/zfs_hmx/module/icp
+obj = /home/zfs/z_sm4/zfs_hmx/module/icp
 
 MODULE := icp
 

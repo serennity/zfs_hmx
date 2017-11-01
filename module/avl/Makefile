@@ -1,5 +1,5 @@
-src = /home/zfs/z_sm4/module/avl
-obj = /home/zfs/z_sm4/module/avl
+src = /home/zfs/z_sm4/zfs_hmx/module/avl
+obj = /home/zfs/z_sm4/zfs_hmx/module/avl
 
 MODULE := zavl
 
