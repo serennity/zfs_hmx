@@ -214,6 +214,9 @@ typedef uint32_t crypto_keysize_unit_t;
 #define	SUN_CKM_ECDSA_SHA1		"CKM_ECDSA_SHA1"
 #define	SUN_CKM_ECDSA			"CKM_ECDSA"
 
+#define SUN_CKM_SM4_ECB         "CKM_SM4_ECB"
+#define SUN_CKM_SM4_CBC         "CKM_SM4_CBC"
+
 /* Shared operation context format for CKM_RC4 */
 typedef struct {
 #if defined(__amd64)

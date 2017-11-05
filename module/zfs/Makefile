@@ -1,5 +1,5 @@
-src = /home/zfs/z_sm4/zfs_hmx/module/zfs
-obj = /home/zfs/z_sm4/zfs_hmx/module/zfs
+src = /home/zfs/zfs_hmx/module/zfs
+obj = /home/zfs/zfs_hmx/module/zfs
 
 MODULE := zfs
 

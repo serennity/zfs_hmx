@@ -39,7 +39,9 @@ struct zbookmark_phys;
 typedef enum zio_crypt_type {
 	ZC_TYPE_NONE = 0,
 	ZC_TYPE_CCM,
-	ZC_TYPE_GCM
+	ZC_TYPE_GCM,
+	ZC_TYPE_ECB,
+	ZC_TYPE_CBC
 } zio_crypt_type_t;
 
 /* table of supported crypto algorithms, modes and keylengths. */
