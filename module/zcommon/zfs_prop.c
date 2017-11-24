@@ -130,6 +130,7 @@ zfs_prop_init(void)
 		{ "aes-192-gcm",	ZIO_CRYPT_AES_192_GCM },
 		{ "aes-256-gcm",	ZIO_CRYPT_AES_256_GCM },
 		{ "aes-128-ecb",	ZIO_CRYPT_AES_128_ECB },
+		{ "aes-128-cbc",    ZIO_CRYPT_AES_128_CBC },
 		{ "sm4-128-ecb",	ZIO_CRYPT_SM4_128_ECB },
 		{ NULL }
 	};
